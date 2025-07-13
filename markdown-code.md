@@ -51,6 +51,40 @@ body.dark {
   right: 1rem;
 }
 
+/* Inline code block styling */
+code {
+  background-color: #f0f0f0;
+  color: #2d2d2d;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95em;
+}
+
+/* Block-level code */
+pre {
+  background-color: #f0f0f0;
+  color: #2d2d2d;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.95em;
+  margin: 1em 0;
+}
+
+/* Dark mode styles */
+body.dark code {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark pre {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+
 .checkbox-label {
   background-color: #111;
   width: 50px;
