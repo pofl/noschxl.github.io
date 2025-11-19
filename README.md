@@ -1,4 +1,4 @@
-
+```html
 <div>
   <script>
     try {
@@ -118,6 +118,7 @@ checkbox.addEventListener("change", () => {
 });
 
 </script>
+```
 
 # Posts: 
 
